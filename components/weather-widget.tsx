@@ -66,7 +66,7 @@ export function WeatherWidget() {
         Weather Updates
       </motion.h2>
 
-      {usingFallback && (
+{/*       {usingFallback && (
         <div className="mb-6 p-4 bg-yellow-50 border border-yellow-200 rounded-md flex items-center gap-2 text-yellow-800">
           <AlertTriangle className="h-5 w-5 text-yellow-500" />
           <p>
@@ -74,7 +74,7 @@ export function WeatherWidget() {
           </p>
         </div>
       )}
-
+ */}
       {error && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-md text-red-800">
           {error}
