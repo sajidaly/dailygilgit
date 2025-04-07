@@ -16,7 +16,7 @@ export const districts = [
 ]
 
 // You'll need to replace this with your actual OpenWeatherMap API key
-const OPENWEATHER_API_KEY = process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY
+const OPENWEATHER_API_KEY =  "63103a20ee160cb8ffd950fb804d4da0"
 
 // Add debugging to check if API key is loaded
 if (!OPENWEATHER_API_KEY || OPENWEATHER_API_KEY === 'your_api_key_here') {
