@@ -46,7 +46,7 @@ export async function getWeatherData(district: string): Promise<WeatherData> {
     }
 
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${district},PK&units=metric&appid=${OPENWEATHER_API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${district},PK&units=metric&appid=${"63103a20ee160cb8ffd950fb804d4da0"}`
     )
     
     if (!response.ok) {
