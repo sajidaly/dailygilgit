@@ -40,10 +40,7 @@ function generateFallbackData(district: string): WeatherData {
 
 export async function getWeatherData(district: string): Promise<WeatherData> {
   try {
-    if (!OPENWEATHER_API_KEY || OPENWEATHER_API_KEY === 'your_api_key_here') {
-      console.warn('Using fallback weather data because API key is not configured')
-      return generateFallbackData(district)
-    }
+  
 
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${district},PK&units=metric&appid=63103a20ee160cb8ffd950fb804d4da0`
