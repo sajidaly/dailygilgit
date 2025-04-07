@@ -11,7 +11,7 @@ export interface WeatherData {
 }
 
 export const districts = [
-  'Gilgit', 'Hunza', 'Nagar', 'Skardu', 'Shigar', 'Kharmang', 'Astore',
+  'Gilgit', 'Hunza', 'Nagar Khas', 'Skardu', 'Shigar', 'Kharmang', 'Astore',
   'Ghanche', 'Ghizer', 'Yasin', 'Gupis', 'Darel', 'Tangir', 'Diamer'
 ]
 
