@@ -19,7 +19,7 @@ export const districts = [
 const OPENWEATHER_API_KEY =  "63103a20ee160cb8ffd950fb804d4da0"
 
 // Add debugging to check if API key is loaded
-if (!OPENWEATHER_API_KEY || OPENWEATHER_API_KEY === 'your_api_key_here') {
+if (!OPENWEATHER_API_KEY || OPENWEATHER_API_KEY === '63103a20ee160cb8ffd950fb804d4da0') {
   console.error('OpenWeatherMap API key is not set or is using the placeholder value')
 }
 
